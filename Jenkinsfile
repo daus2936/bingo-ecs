@@ -19,7 +19,7 @@ pipeline {
 
         stage('Checkout the project from github repo') {
             steps {
-                git branch: 'main', url: 'git@github.com:daus2936/bingo-ecs.git'
+                git branch: 'main', url: 'https://github.com/daus2936/bingo-ecs.git'
             }
         }
 
